@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/editString" android:text="Press Connect">
+                <requestFocus/>
+            </EditText>
+        </TableRow>
+    </TableLayout>
+    <Button android:text="Connect" android:id="@+id/buttonConnect"
+        android:layout_width="wrap_content" android:layout_height="wrap_content">
+    </Button>
+    <Button android:text="GetFiles" android:id="@+id/getFiles"
+        android:layout_width="wrap_content" android:layout_height="wrap_content">
+    </Button>
+    <ListView android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/mainListView">
+    </ListView>
+</LinearLayout><!-- From: file:/C:/Users/Ryan/Downloads/AndroidFileOpener/app/src/main/res/layout/main.xml -->
